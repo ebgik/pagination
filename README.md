@@ -16,19 +16,7 @@ Plugin with JQuery
 
 Пример использования
 <code>
- <input id="search" placeholder="Поиск" />
- <ol class="list">
-   <li>Пункт 1</li>
-   <li>Пункт 2</li>
-   <li>Пункт 3</li>
-   <li>Пункт 4</li>  
-   <li>Пункт 5</li>
- </ol>
- <ul class="button-bar"></ul>
-
- <script>
    $('.list').pagination({
       per_page:2
    });
- </script>
 </code>
